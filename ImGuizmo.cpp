@@ -647,13 +647,13 @@ namespace IMGUIZMO_NAMESPACE
       CenterCircleSize           = 6.0f;
 
       // initialize default colors
-      Colors[DIRECTION_X]           = ImVec4(0.666f, 0.000f, 0.000f, 1.000f);
-      Colors[DIRECTION_Y]           = ImVec4(0.000f, 0.666f, 0.000f, 1.000f);
-      Colors[DIRECTION_Z]           = ImVec4(0.000f, 0.000f, 0.666f, 1.000f);
-      Colors[PLANE_X]               = ImVec4(0.666f, 0.000f, 0.000f, 0.380f);
-      Colors[PLANE_Y]               = ImVec4(0.000f, 0.666f, 0.000f, 0.380f);
-      Colors[PLANE_Z]               = ImVec4(0.000f, 0.000f, 0.666f, 0.380f);
-      Colors[SELECTION]             = ImVec4(1.000f, 0.500f, 0.062f, 0.541f);
+      Colors[DIRECTION_X]           = ImVec4(1.000f, 0.443f, 0.368f, 0.847f);
+      Colors[DIRECTION_Y]           = ImVec4(1.000f, 0.145f, 0.666f, 0.145f);
+      Colors[DIRECTION_Z]           = ImVec4(1.000f, 0.800f, 0.325f, 0.173f);
+      Colors[PLANE_X]               = ImVec4(1.000f, 0.478f, 0.408f, 0.847f);
+      Colors[PLANE_Y]               = ImVec4(1.000f, 0.333f, 0.670f, 0.333f);
+      Colors[PLANE_Z]               = ImVec4(1.000f, 0.851f, 0.404f, 0.259f);
+      Colors[SELECTION]             = ImVec4(1.000f, 0.125f, 0.847f, 0.800f);
       Colors[INACTIVE]              = ImVec4(0.600f, 0.600f, 0.600f, 0.600f);
       Colors[TRANSLATION_LINE]      = ImVec4(0.666f, 0.666f, 0.666f, 0.666f);
       Colors[SCALE_LINE]            = ImVec4(0.250f, 0.250f, 0.250f, 1.000f);
